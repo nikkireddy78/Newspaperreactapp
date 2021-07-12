@@ -1,0 +1,227 @@
+:root {
+  --primary: rgba(255, 255, 255, 0.918);
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: rgb(3, 0, 0);
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  margin-top: 18px;
+}
+
+.logout-btn {
+  margin-top: 18px;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover, .btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+
+.logintag {
+  margin-top: 100px;
+  margin-left: 60px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.LoginAs {
+  background-color: #fff;
+  /* background: url('/src/css/add.jpg') center center/cover no-repeat ; */
+  width: 100%;
+  height: 500px;
+}
+
+.buttonCust span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonCust span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonCust:hover span {
+  padding-right: 25px;
+}
+
+.buttonCust:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonCust {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 450px;
+  width: 200px;
+  background-color: #faaca8;
+  top: 30%;
+  left: 30%;
+  border-radius: 12px;
+}
+
+.buttonCust:hover {
+  background-color: rgb(228, 149, 228);
+  color: #242424;
+}
+
+.buttonCust:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonStaf {
+  background-color: #faaca8;
+  border: lightblue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 10px;
+  cursor: pointer;
+  margin-left: 4px;
+  width: 200px;
+  border-radius: 12px;
+  /* height: 300px; */
+}
+
+.buttonStaf:hover {
+  background-color:  rgb(228, 149, 228);
+  color: #242424;
+}
+
+.buttonStaf:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonStaf span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonStaf span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonStaf:hover span {
+  padding-right: 25px;
+}
+
+.buttonStaf:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonDash {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  background-color: rgb(50, 65, 88);
+}
+
+.buttonDash:hover {
+  background-color: rgb(106, 152, 211);
+  color: #242424;
+}
+
+.buttonDash:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonDashUp {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  background-color: rgb(50, 65, 88);
+}
+
+.buttonDashUp:hover {
+  background-color: rgb(106, 152, 211);
+  color: #242424;
+}
+
+.buttonDashUp:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logemail {
+  font-size: 20px;
+  color: rgb(49, 85, 202);
+}
+
+.text-left {
+  font-size: 20px;
+  color: rgb(49, 85, 202);
+}
+
+.container-fluid {
+  margin-top: 80px;
+}

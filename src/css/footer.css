@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    background-color: linear-gradient(100deg, #f2709c, #ff9427 100%);
+    min-height: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.background_color {
+    background:  linear-gradient(100deg, #f2709c, #ff9427 100%);
+    border-radius: 0;
+}
